@@ -45,6 +45,9 @@
     "webhook": "./packages/cli/bin/n8n webhook",
     "worker": "./packages/cli/bin/n8n worker"
   },
+  "dependencies": {
+    "semver": "^7.5.4"
+  },
   "devDependencies": {
     "@biomejs/biome": "^1.9.0",
     "@n8n_io/eslint-config": "workspace:*",
@@ -82,7 +85,6 @@
       "esbuild": "^0.24.0",
       "formidable": "3.5.1",
       "pug": "^3.0.3",
-      "semver": "^7.5.4",
       "tslib": "^2.6.2",
       "tsconfig-paths": "^4.2.0",
       "typescript": "^5.7.2",
